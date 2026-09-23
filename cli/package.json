@@ -1,0 +1,46 @@
+{
+  "name": "aimo-cli",
+  "version": "0.2.0",
+  "description": "Add the AIMO mascot to your project: React, React Native or a Web Component. One file, no dependency to maintain.",
+  "keywords": [
+    "aimo",
+    "aimo-cli",
+    "avatar",
+    "mascot",
+    "agent",
+    "react",
+    "svg",
+    "component",
+    "cli",
+    "react-native",
+    "expo",
+    "vue",
+    "svelte",
+    "angular",
+    "web-component"
+  ],
+  "homepage": "https://aimo.nrmk.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrmk13/AIMO.git",
+    "directory": "cli"
+  },
+  "bugs": {
+    "url": "https://github.com/nrmk13/AIMO/issues",
+    "email": "hello@nrmk.dev"
+  },
+  "license": "MIT",
+  "author": "nrmk.dev",
+  "type": "module",
+  "bin": {
+    "aimo-cli": "index.mjs",
+    "aimo": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
